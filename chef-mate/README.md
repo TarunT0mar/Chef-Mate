@@ -1,12 +1,29 @@
-# React + Vite
+# Chef-Mate 🍽️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Chef-Mate** is your smart kitchen companion! Just enter the ingredients you have, and let Chef-Mate help you generate recipes based on what's available in your kitchen.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add ingredients via a simple input
+- See a list of current ingredients
+- Generate recipe ideas (soon to be added!)
+- Smooth, interactive UI
 
-## Expanding the ESLint configuration
+## 📦 Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React + Vite ⚡
+- JavaScript
+- CSS
+
+## 📸 Preview
+
+![App Screenshot](../chef-mate/public/Screenshot%20(15).png)
+![App Screenshot](../chef-mate/public/Screenshot%20(16).png)
+
+## 🛠️ Setup & Run Locally
+
+```bash
+git clone https://github.com/your-username/chef-mate.git
+cd chef-mate
+npm install
+npm run dev
