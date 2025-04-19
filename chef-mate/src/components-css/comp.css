@@ -1,0 +1,133 @@
+header{
+    color: black;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1);   
+}
+
+.chef-logo{
+    font-size: 1.9rem;
+}
+
+header > h3{
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Main{
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4rem 0 0 0;
+    margin-bottom: 2rem;
+}
+
+form{
+    border: 3px solid black;
+    width: 70%;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding: 1rem 0.5rem 0 0.5rem;
+    gap: 1rem;
+    border-radius: 2rem;
+    color: black;
+    
+}
+form > ul{
+    align-self: flex-start;
+    font-size: 1.3rem;
+}
+form > input{
+    width: 95%;
+    height: 40px;
+    border-radius: 0.3rem;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    color: black;
+}
+form > input::placeholder {
+    color: black;
+  }
+
+form > button{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    margin-right: 1rem;
+    align-self: flex-end;
+   border-radius: 20rem;
+   cursor: pointer;
+}
+
+.arrow-button{
+    font-size:1.4rem;
+}
+
+.ingredients-Holder{
+    align-self: flex-start;
+    margin-left: 1rem;
+    padding: 1rem;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.ingredients-Holder > ul {
+    font-size: 1.2rem;
+
+}
+
+.ingredients-Holder > ul > li{
+    padding: 0.2rem;
+}
+
+.ingredients-Holder > h2{
+    margin-left: 1rem;
+}
+
+.recipi{
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    display: flex;
+ align-items: center;
+     padding: 0 0 1rem 1rem; 
+    margin-top: 2rem;
+    margin-left: 1rem;
+    background-color: antiquewhite;
+}
+
+.recipi-details{
+    width: 70%;
+}
+.recipi-details > h3{
+    font-size: 1.4rem;
+}
+
+.recipi-button{
+    background-color: rgba(231, 129, 40, 0.918);
+    color: white;
+    padding: 0.5rem;
+    width: 6rem;
+    border-radius: 0.3rem;
+    border: none;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.div{
+   align-self: self-end;
+ height: 15vh;
+ width: 30%;
+ display: flex;
+ align-items: flex-end;
+ justify-content: center;
+}
