@@ -14,11 +14,6 @@ Chef Claude is a smart and stylish React + Vite-based app where you enter ingred
 - CSS
 - React Icons
   
-## 📸 Preview
-
-![App Screenshot](../chef-mate/public/Screenshot%20(15).png)
-
-
 
 ## 🚀 Run Locally
 
